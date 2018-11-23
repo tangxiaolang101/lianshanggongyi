@@ -1,0 +1,58 @@
+/* miniprogram/pages/detail/detail.wxss */
+page {
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-10deg, #e5b2ca 0%, #7028e3 100%);
+}
+
+.pro-card {
+    width: 700rpx;
+    height: 500rpx;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 40rpx;
+    border-radius: 8rpx;
+    box-shadow: 2px 2px 5px #333333;    
+}
+
+.card-img {
+    width: 680rpx;
+    height: 340rpx;
+    margin-left: 10rpx;
+}
+
+.card-des {
+    width: 660rpx;
+    margin-left: 20rpx;
+    height: 130rpx;
+    margin-top: 5rpx;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #e5b2ca;
+}
+
+.card-title {
+    font-size: 28rpx;
+    color: #333333;
+    font-weight: bold;
+}
+
+.card-tip {
+    font-size: 24rpx;
+    color: #333333;
+    margin-top: 10rpx;
+}
+
+.giv-btn {
+    width: 240rpx;
+    height: 80rpx;
+    border-radius: 4rpx;
+    background-color: #ff9870;
+    text-align: center;
+    margin-top: 80rpx;
+    line-height: 80rpx;
+    color: #fff;
+}

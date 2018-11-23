@@ -1,0 +1,12 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<view class='container'>
+    <view class='pro-card'>
+        <image class='card-img' src='./img/hope-school.jpeg'></image>
+        <view class='card-des'>
+            <view class='card-title'>某某希望小学</view>
+            <view class='card-tip'>筹集金额: 20万</view>
+        </view>
+    </view>
+    <view class='giv-btn' bindtap='payIcon'>捐赠</view>
+    <view class='giv-btn' bindtap='checkIcon'>查询</view>
+</view>
